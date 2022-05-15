@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans:wght@300;400;700&family=Oleo+Script+Swash+Caps:wght@700&family=Open+Sans:wght@600&family=Prompt:wght@300&family=Radio+Canada:wght@500;600&family=Rubik:wght@700&family=Source+Serif+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans:wght@300;400;700&family=Lobster&family=Oleo+Script+Swash+Caps:wght@700&family=Open+Sans:wght@600&family=Prompt:wght@300&family=Radio+Canada:wght@500;600&family=Rubik:wght@700&family=Source+Serif+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans:wght@300;400;700&family=Lobster&family=Oleo+Script+Swash+Caps:wght@700&family=Open+Sans:wght@600&family=Prompt:wght@300&family=Questrial&family=Radio+Canada:wght@500;600&family=Rubik:wght@700&family=Source+Serif+Pro:wght@600&display=swap');
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(249, 250, 250);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.center {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+
+input {
+  border: 2px solid black;
+  padding: 5px;
+  width: 60px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+input:hover {
+  background-color: rgb(139, 123, 123);
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  padding: 9px;
+  padding-right: 15px;
+  margin-right: 15px;
+  padding-top: 5px;
+}
+
+nav li:hover {
+  background-color: rgb(139, 123, 123);
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.columner {
+  background: linear-gradient(90deg, pink, pink 25%, rgba(49, 48, 48, 0)), url(./images/photo.PNG);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  height: 400px;
+  padding-left: 50px;
+  padding-top: 50px;
+  border-radius: 7px;
+}
+
+.columner p {
+  font-family: 'Arvo', serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+}
+
+.direction {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1080px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.caption {
+  display: flex;
+}
+
+figure {
+  margin-left: 0;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.USD {
+  font-weight: bold;
+  display: inline;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.img2 {
+  width: 18px;
+  height: 18px;
+  border: none;
+  padding: 0;
+  padding-right: 5px;
+  padding-top: 3px;
+}
+
+.hotels {
+  margin-left: 30px;
+}
+
+.result {
+  display: flex;
+  margin-left: 50px;
+}
+
+.pens {
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.img3 {
+  border: none;
+  padding-left: 50px;
+}
+
+.img4 {
+  border: none;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.radius {
+  padding-top: 50px;
+  margin-left: 50px;
+}
+
+.content {
+  border-radius: 7px;
+  box-shadow: 0 2px 20px rgb(151, 151, 151);
+  display: flex;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -90px;
+  font-family: 'Arvo', serif;
+}
+
+.div-p2 {
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+  background-color: #fff0;
+  font-family: 'Arvo', serif;
+  width: 300px;
+  margin-bottom: 30px;
+  display: inline;
+  margin-left: 60px;
+  box-shadow: 0 2px 20px rgb(151, 151, 151);
+  cursor: pointer;
+}
+
+.img5 {
+  border: none;
+  width: 300px;
+  height: 200px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+
+.columner2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dollars {
+  padding-left: 30px;
+}
+
+.h11 {
+  text-align: center;
+}
+
+.rower2 {
+  display: flex;
+  text-align: center;
+  padding-right: 60px;
+}
+
+footer {
+  padding-bottom: 100px;
+}
